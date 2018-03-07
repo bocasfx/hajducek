@@ -54,10 +54,13 @@ a:hover {
 
 .profile {
   padding: 120px 0 40px 0;
+  background-color: white;
+}
+
+.profile-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: white;
 }
 
 .profile img {
@@ -129,6 +132,14 @@ a:hover {
   max-width: 700px;
 }
 
+.skills {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: baseline;
+  flex-direction: column;
+}
+
 .footer {
   background-color: #333;
   color: #ccc;
@@ -172,4 +183,13 @@ a:hover {
 
 .left {
   text-align: left;
+}
+
+canvas {
+  max-width: 700px;
+}
+
+.chart-title {
+  font-weight: bold;
+  margin-bottom: 24px;
 }
