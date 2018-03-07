@@ -89,6 +89,19 @@ a:hover {
   border-bottom: 1px solid #ccc;
 }
 
+.icons {
+  margin-top: 8px;
+}
+
+.icons i {
+  color: #bbb;
+  padding-right: 16px;
+}
+
+.icons a:hover i {
+  color: orangered;
+}
+
 .section {
   padding: 64px 0;
   color: #333;
@@ -118,8 +131,20 @@ a:hover {
 
 .footer {
   background-color: #333;
-  color: white;
-  height: 400px;
+  color: #ccc;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+}
+
+.footer-content {
+  max-width: 700px;
+  color: #ccc;
+}
+
+.footer-entry i {
+  margin-right: 16px;
 }
 
 .table {
