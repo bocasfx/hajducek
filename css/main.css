@@ -1,0 +1,150 @@
+
+
+html {
+  background: url(/img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #666;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+  height: 100%;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}
+
+.header {
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 100px;
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 64px;
+  border-bottom: 1px solid orangered;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.header-sub-title {
+  font-size: 32px;
+}
+
+.profile {
+  padding: 120px 0 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 7px solid #999;
+}
+
+.title-container {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+
+.title {
+  font-size: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sub-title {
+  color: #999;
+  font-size: 16px;
+  margin-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section {
+  padding: 64px 0;
+  color: #333;
+  background-color: white;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  color: orangered;
+  font-size: 32px;
+  padding-bottom: 24px;
+  width: 700px;
+}
+
+.section-content {
+  margin-top: 24px;
+  text-align: justify;
+  max-width: 700px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  height: 400px;
+}
+
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  padding: 0 16px;
+  min-width: 250px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.sub {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.left {
+  text-align: left;
+}
