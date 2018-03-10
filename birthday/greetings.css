@@ -11,13 +11,14 @@ body {
   height: 100%;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+
 a {
-  color: #333;
+  color: #d8334b;
   text-decoration: none;
-  padding: 100px 150px;
-  background-color: white;
 }
+
 a:hover {
+  color: #35baa4;
   text-decoration: underline;
 }
 .message {
@@ -30,4 +31,16 @@ a:hover {
   line-height: 100px;
   font-size: 100px;
   font-weight: bold;
+}
+.message span {
+  color: #d8334b;
+  text-decoration: none;
+  padding: 50px;
+  max-width: 650px;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(50,50,50,0.7);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(50,50,50,0.7);
+  box-shadow: 10px 10px 10px 0px rgba(50,50,50,0.7);
+  text-align: center;
 }
