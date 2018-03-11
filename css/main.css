@@ -19,6 +19,7 @@ body {
   margin: 0;
   line-height: 1.5em;
   height: 100%;
+  background-color: transparent;
 }
 
 a {
@@ -123,7 +124,7 @@ a:hover {
   color: orangered;
   font-size: 32px;
   padding-bottom: 24px;
-  width: 700px;
+  width: 800px;
 }
 
 .section-content {
@@ -158,18 +159,8 @@ a:hover {
   margin-right: 16px;
 }
 
-.table {
-  display: table;
-}
-
-.row {
-  display: table-row;
-}
-
-.cell {
-  display: table-cell;
-  padding: 0 16px;
-  min-width: 250px;
+.container {
+  margin-top: 40px;
 }
 
 .bold {
@@ -179,6 +170,7 @@ a:hover {
 .sub {
   font-size: 0.9em;
   color: #999;
+  margin-bottom: 16px;
 }
 
 .left {
