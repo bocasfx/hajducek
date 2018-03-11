@@ -211,6 +211,7 @@ canvas {
     }
 
     .title-container {
+      margin-left: 0;
       align-items: center;
     }
 
