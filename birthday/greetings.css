@@ -44,3 +44,7 @@ a:hover {
   box-shadow: 10px 10px 10px 0px rgba(50,50,50,0.7);
   text-align: center;
 }
+
+.arrow {
+  font-size: 150px;
+}
