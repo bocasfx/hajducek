@@ -17,7 +17,7 @@ body {
   margin: 0;
   line-height: 1.5em;
   height: 100%;
-  background-color: transparent;  
+  background-color: transparent;
 }
 
 a {
@@ -29,7 +29,108 @@ a:hover {
   color: orangered;
 }
 
-.header {
+li {
+  margin-bottom: 8px;
+}
+
+.cover {
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover h1 {
+  border-bottom: 1px solid orangered;
+  padding: 0 40px 8px;
+}
+
+section {
+  padding: 80px 0 0;
+}
+
+section .row {
+  padding-top: 16px;
+}
+
+.background {
+  width: 100%;
+  background-color: #fff;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile h3 {
+  color: orangered;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 7px solid #999;
+}
+
+.profile-text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: orangered;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
+
+.entry {
+  font-weight: bold;
+}
+
+.subentry {
+  color: #999;
+}
+
+.skill {
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+.skill:first-child {
+  margin-top: 0;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .cover h1 {
+      font-size: 1.9rem;
+      border-bottom: 1px solid orangered;
+      padding-bottom: 8px;
+    }
+
+    .profile-text {
+      text-align: center; 
+    }
+
+    .profile img {
+      margin-bottom: 24px;
+    }
+
+    .subentry {
+      margin-bottom: 16px;
+    }
+}
+
+/*.header {
   color: white;
   height: 100%;
   display: flex;
@@ -231,3 +332,4 @@ canvas {
       height: 300px;
     }
 }
+*/

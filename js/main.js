@@ -1,9 +1,9 @@
-window.sr = ScrollReveal({
-  duration: 500,
-  delay: 200,
-  distance: 0
-});
-sr.reveal('.reveal');
+// window.sr = ScrollReveal({
+//   duration: 500,
+//   delay: 200,
+//   distance: 0
+// });
+// sr.reveal('.reveal');
 
 var ikChart = document.getElementById("ik-chart").getContext('2d');
 new Chart(ikChart, {
