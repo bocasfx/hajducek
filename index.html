@@ -23,20 +23,45 @@
 </head>
 <body>
 
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
   <div class="cover">
     <h1>Dagmar Hajducek</h1>
     <h3>Statistician</h3>
   </div>
 
-  <div class="background">
+  <main class="background">
     <div class="container">
       <section>
         <div class="row justify-content-center profile">
-          <div class="col-md-4">
+          <div class="col-lg">
             <img class="profile-image" src="./img/profile.jpg">
           </div>
 
-          <div class="col-md-4 profile-text">
+          <div class="col-lg profile-text">
             <h3>Dagmar Hajducek</h3>
             <h6>Statistics PhD - University of Waterloo</h6>
             <h6>Waterloo, ON. Canada</h6>
@@ -44,33 +69,33 @@
         </div>
       </section>
 
-      <section>
+      <section id="about">
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             <h2 class="title">About</h2>
           </div>
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             Eigh years of research and applied experience in statistical methods for longitudinal complex survey data. Two year experience with the International Tobacco Control (ITC) Policy Evaluation Project. Demonstrated ability to work independently and collaborate in interdisciplinary teams. Proficiency in programming and statistical software (R, LaTex, SAS, SUDAAN, STATA). Fluent in English and Spanish.
           </div>
         </div>
       </section>
 
-      <section>
+      <section id="experience">
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             <h2 class="title">Experience</h2>
           </div>
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg">
             <div class="entry">Postdoctoral Fellow</div>
             <div class="subentry">MITACS and International Tobacco Control Project (ITC)</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg">
             <ul>
               <li>Collaborated in the development of sampling weight adjustment methods based on propensity scores for dual mode or dual frame surveys (e.g. telephone vs. web).</li>
               <li>Implemented multilevel modelling techniques for multi-country comparisons of smokers' responses and behaviours (e.g., regret and effectiveness of warning labels in cigarette packages).</li>
@@ -81,11 +106,11 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg">
             <div class="entry">Consultant Statistician</div>
             <div class="subentry">University of Waterloo - Statistics and Actuarial Sciences</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg">
             <ul>
               <li>Provided statistical advice to graduate students and faculty from biology, health sciences, psychology, engineering and management sciences on analyzing data from observational and experimental studies.</li>
               <li>Applied statistical methods for longitudinal and experimental data analysis.</li>
@@ -95,11 +120,11 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg">
             <div class="entry">Lecturer</div>
             <div class="subentry">University of Waterloo - Statistics and Actuarial Sciences</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg">
             <ul>
               <li>Statistics for Non-Specialists.</li>
             </ul>
@@ -107,11 +132,11 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg">
             <div class="entry">Researcher</div>
             <div class="subentry">Social Survey Methods Division - Statistics Canada</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg">
             <ul>
               <li>Development of statistical methods for the application of survival methodology on survey data and the analysis of jobless spells from the Statistics Canada's Survey of Labour and Income Dynamics (SLID).</li>
             </ul>
@@ -119,19 +144,19 @@
         </div>
       </section>
 
-      <section>
+      <section id="education">
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             <h2 class="title">Education</h2>
           </div>
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg">
             <div class="entry">University of Waterloo</div>
             <div class="subentry">PhD, Statistics</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg">
             <ul>
               <li>Analysis of duration data from longitudinal surveys subject to loss to follow-up.</li>
             </ul>
@@ -139,11 +164,11 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg">
             <div class="entry">University of Guanajuato, Mexico</div>
             <div class="subentry">MSc, Statistics</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg">
             <ul>
               <li>At the Research Centre in Mathematics (CIMAT in Spanish) in Guanajuato, Mexico.</li>
             </ul>
@@ -151,11 +176,11 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-md-4">
+          <div class="col-lg">
             <div class="entry">Universidad Iberoamericana, Mexico</div>
             <div class="subentry">BSc, Industrial Engineering</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg">
             <ul>
               <li>BSc, Industrial Engineering</li>
             </ul>
@@ -163,88 +188,67 @@
         </div>
       </section>
 
-      <section>
+      <section id="skills">
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             <h2 class="title">Skills</h2>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-8 offset-md-2">
+          <div class="col-lg-8 offset-lg-2">
             <div class="skill">Industry Knowledge</div>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             <canvas id="ik-chart" width="700"></canvas>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-8 offset-md-2">
+          <div class="col-lg-8 offset-lg-2">
             <div class="skill">Tools &amp; Technologies</div>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             <canvas id="tt-chart" width="700"></canvas>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-8 offset-md-2">
+          <div class="col-lg-8 offset-lg-2">
             <div class="skill">Other</div>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md">
             <canvas id="other-chart" width="700"></canvas>
           </div>
         </div>
       </section>
 
     </div>
-  </div>
-
-  <!-- 
- 
-
-  <div class="section">
-    <div class="section-container">
-      <div class="section-title reveal">Skills</div>
-      <div class="skills reveal">
-        <div class="chart-title">Industry Knowledge</div>
-        <canvas id="ik-chart" width="700"></canvas>
-      </div>
-      <div class="skills reveal">
-        <div class="chart-title">Tools &amp; Technologies</div>
-        <canvas id="tt-chart" width="700"></canvas>
-      </div>
-      <div class="skills reveal">
-        <div class="chart-title">Other</div>
-        <canvas id="other-chart" width="700"></canvas>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="footer-content">
-      <div class="footer-entry">
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="text-muted">
         <i class="fa fa-envelope"></i>
         <a href="mailto:dagmar@hajducek.ca" target="_blank">dagmar@hajducek.ca</a>
       </div>
-      <div class="footer-entry">
+      <div class="text-muted">
         <i class="fa fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/dagmar-m-hajducek-36a8bb33/" target="_blank">https://www.linkedin.com/in/dagmar-m-hajducek-36a8bb33/</a>
+        <a href="https://www.linkedin.com/in/dagmar-m-hajducek-36a8bb33/" target="_blank">Dagmar Hajducek</a>
       </div>
     </div>
-  </div>
+  </footer>
+
+  <!-- 
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
   <script src="./js/main.js"></script>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
